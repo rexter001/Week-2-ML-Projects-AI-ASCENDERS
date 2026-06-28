@@ -118,3 +118,143 @@ T-2_LinearRegression/
 ## Conclusion
 
 This project successfully implements Linear Regression from scratch using Python and NumPy. It manually calculates the slope, intercept, predicted values, and Mean Squared Error (MSE) without using Scikit-Learn. The visualization confirms that the regression line perfectly fits the dataset.
+
+
+
+
+
+---
+
+# Task 3: Heart Disease Prediction using Logistic Regression
+
+## Objective
+
+The objective of this project is to develop a Machine Learning classification model using the **Logistic Regression** algorithm to predict whether a patient has heart disease based on medical information. The project demonstrates the complete machine learning workflow, including data preprocessing, model training, prediction, and performance evaluation.
+
+---
+
+## Dataset
+
+The project uses the **Heart Disease Prediction Dataset**, which contains **270 patient records** with **14 attributes**, including **13 input features** and **1 target variable**.
+
+### Target Variable
+
+| Value | Description               |
+| ----: | ------------------------- |
+|     1 | Presence of Heart Disease |
+|     0 | Absence of Heart Disease  |
+
+---
+
+## Technologies Used
+
+* Python
+* Pandas
+* Scikit-learn
+* Jupyter Notebook
+* Visual Studio Code
+
+---
+
+## Team Member
+
+* Ramya
+
+---
+
+## Project Workflow
+
+1. Load the Heart Disease Prediction dataset.
+2. Perform data preprocessing.
+3. Split the dataset into training and testing sets.
+4. Train the Logistic Regression model.
+5. Predict heart disease on test data.
+6. Evaluate the model using accuracy score.
+7. Compare actual and predicted values.
+
+---
+
+## Screenshots
+
+### Dataset Preview
+
+![Dataset Preview](Week2_Classification_Sprint/screenshots/dataset_preview.png)
+
+### Model Accuracy
+
+![Model Accuracy](Week2_Classification_Sprint/screenshots/model_accuracy.png)
+
+### Prediction Results
+
+![Prediction Results](Week2_Classification_Sprint/screenshots/prediction_results.png)
+
+---
+
+## How to Run
+
+### Clone the repository
+
+```bash
+git clone <repository-link>
+```
+
+### Open the project folder
+
+```bash
+cd Week-2-ML-Projects-AI-ASCENDERS
+```
+
+### Install the required libraries
+
+```bash
+pip install pandas scikit-learn
+```
+
+### Open the Notebook
+
+Open the following notebook using **Visual Studio Code** or **Jupyter Notebook**:
+
+```text
+Week2_Classification_Sprint/code/classification_model.ipynb
+```
+
+Run all the notebook cells sequentially.
+
+---
+
+## Expected Output
+
+```text
+Heart Disease Prediction using Logistic Regression
+
+Algorithm Used : Logistic Regression
+
+Model Accuracy : 92.59%
+```
+
+The trained model predicts whether a patient has heart disease and displays the overall prediction accuracy.
+
+---
+
+## Project Structure
+
+```text
+Week2_Classification_Sprint/
+│
+├── code/
+│   └── classification_model.ipynb
+│
+├── data/
+│   └── Heart_Disease_Prediction.csv
+│
+└── screenshots/
+    ├── dataset_preview.png
+    ├── model_accuracy.png
+    └── prediction_results.png
+```
+
+---
+
+## Conclusion
+
+This project successfully implements a **Logistic Regression** model for heart disease prediction. After preprocessing the dataset and training the model, the classifier achieved an **accuracy of 92.59%**. The project demonstrates the complete workflow of a binary classification problem using Python and Scikit-learn.
