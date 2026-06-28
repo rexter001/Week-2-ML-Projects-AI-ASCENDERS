@@ -45,11 +45,11 @@ Y = 2X + 1
 
 ### Output
 
-> Add the screenshot of the terminal output here.
+![Output](Screenshots_T2/Output.png)
 
 ### Visualization
 
-> Add the screenshot of the regression graph here.
+![Visualization](Screenshots_T2/Visualization.png)
 
 ---
 
